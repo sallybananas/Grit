@@ -9,7 +9,9 @@ html {
 hr{
     margin:5px;
 }
-
+h1{
+    font-size: 35px
+}
 /* Radial Menu CSS */
  /* right: -15px;
     bottom: -15px; */
