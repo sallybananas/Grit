@@ -71,8 +71,8 @@ Main Components
   content: '';
   position: absolute;
   z-index: 2;
-  top: 49px;
-  height: 25%;
+  top: 44px;
+  height: 30%;
   width: 20px;
 }
 .cd-horizontal-timeline .events-wrapper::before {
