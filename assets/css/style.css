@@ -1,6 +1,6 @@
 /* Ultrawide Background */
 html { 
-    background: url('bgsitev1.png') no-repeat left top fixed; 
+    background: url('bgsite.gif') no-repeat left top fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -143,21 +143,23 @@ html {
     position: relative;
     min-height: 100%;
   }
-  body {
+body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     background-color: rgba(0, 0, 0, 0);
     color: white;
   }
-  .footer {
+.footer {
     position: absolute;
-    bottom: -5px;
+    bottom: -20px;
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 70px;
     background-color: rgba(255, 255, 255, 0.749);
   }
- 
+.centerline{
+     align-content: middle;
+ }
   
   /* Custom page CSS
   -------------------------------------------------- */
@@ -170,11 +172,13 @@ html {
   }
   .container .text-muted {
     margin: 10px 0;
-  }
-  i{
-      align-content: center;
+    background: transparent;
   }
   .pb{
-      font-size: 12px;
+    margin-top:20px;
+    background: transparent;
+    font-size: 11px;
   }
+
+ 
   

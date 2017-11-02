@@ -17,24 +17,32 @@ body {
   color: white;
   background-color: transparent;
 }
-
+p{
+  background:rgba(255, 255, 255, 0.201);
+  color:white;
+}
 a {
-  color: rgb(169, 0, 0);;
+  color: white;
   text-decoration: none;
 }
 /* Hides the numbers and dots of the Lists */
 dl, ol, ul{
   color:transparent;
+  padding:0;
 }
 /* -------------------------------- 
 
 Main Components 
 
 -------------------------------- */
-/* .timeline{
+.timeline{
   position: absolute;
   bottom: 0px;
-} */
+  padding-top:45px;
+}
+.centerline{
+  margin-top:10px;
+}
 .cd-horizontal-timeline {
   opacity: 0;
   margin: 2em auto;
@@ -66,16 +74,16 @@ Main Components
   margin: 0 40px;
   overflow: hidden;
 }
-.cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before {
+/* .cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before { */
   /* these are used to create a shadow effect at the sides of the timeline */
-  content: '';
+  /* content: '';
   position: absolute;
   z-index: 2;
   top: 44px;
   height: 30%;
   width: 20px;
-}
-.cd-horizontal-timeline .events-wrapper::before {
+} */
+/* .cd-horizontal-timeline .events-wrapper::before {
   left: 0;
   background-image: -webkit-linear-gradient( left , black, rgba(248, 248, 248, 0));
   background-image: linear-gradient(to right, black, rgba(248, 248, 248, 0));
@@ -84,7 +92,7 @@ Main Components
   right: 0;
   background-image: -webkit-linear-gradient( right , black, rgba(248, 248, 248, 0));
   background-image: linear-gradient(to left, black, rgba(248, 248, 248, 0));
-}
+} */
 .cd-horizontal-timeline .events {
   /* this is the line/timeline */
   position: absolute;
@@ -183,6 +191,7 @@ Main Components
 
 .cd-timeline-navigation a {
   /* these are the left/right arrows to navigate the timeline */
+  padding-top:30px;
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -209,8 +218,8 @@ Main Components
   /* arrow icon */
   content: '';
   position: absolute;
-  height: 16px;
-  width: 16px;
+  height: 10px;
+  width: 10px;
   left: 50%;
   top: 50%;
   bottom: auto;
@@ -223,6 +232,7 @@ Main Components
   /* background: url(../img/cd-arrow.svg) no-repeat 0 0; */
 }
 .cd-timeline-navigation a.prev {
+  margin-top:30px;
   left: 0;
   -webkit-transform: translateY(-50%) rotate(180deg);
   -moz-transform: translateY(-50%) rotate(180deg);
@@ -231,6 +241,7 @@ Main Components
   transform: translateY(-50%) rotate(180deg);
 }
 .cd-timeline-navigation a.next {
+  margin-top:30px;
   right: 0;
 }
 .no-touch .cd-timeline-navigation a:hover {
@@ -322,7 +333,7 @@ Main Components
 }
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
-  color: #959595;
+  /* color: #959595; */
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;
