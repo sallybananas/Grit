@@ -5,7 +5,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 80px;
-    background-color: black;
+    background-color: white;
     /* color: white; */
   }
 .footer {
@@ -14,23 +14,26 @@ body {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 80px;
-    background-color: rgb(234,236,239);
+    background-color: black;
   }
-  .text-muted{
+.text-muted{
       margin-top:16px;
       margin-bottom:16px;
   }
-  .pb{
+.pb{
     margin-top:20px;
     background: transparent;
     font-size: 11px;
+    color:white;
   }
-  .shadow{
+.shadow{
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .jumbotron {
     background-image: url("cover.png");
-    background-size: cover;}
+    background-size: cover;
+    padding:30px;
+}
 .text-inverse{
     color:white;
     margin:0;
@@ -41,4 +44,10 @@ body {
 .dot{
     color: red;
     font-size: 100px;
+}
+.tab-pane{
+    background-color:white;
+}
+.card-header{
+    border:0px;
 }
