@@ -55,3 +55,8 @@ body {
     font-weight:bolder;
     line-height: 10px;
     }
+#kidgt #adultgt .modal-dialog{
+    max-width: 1000px; 
+    position: relative;
+    /* top: 100px; */
+}
