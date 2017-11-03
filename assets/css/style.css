@@ -5,7 +5,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 80px;
-    background-color: white;
+    background-color: rgb(220, 220, 220);
     /* color: white; */
   }
 .footer {
@@ -51,3 +51,7 @@ body {
 .card-header{
     border:0px;
 }
+.grit{
+    font-weight:bolder;
+    line-height: 10px;
+    }
