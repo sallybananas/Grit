@@ -61,7 +61,7 @@ body {
     line-height: 10px;
     }
 #kidgt #adultgt .modal-dialog{
-    max-width: 1000px; 
+    max-width: 1000px;
     position: relative;
     /* top: 100px; */
 }
@@ -74,7 +74,6 @@ body {
 	bottom: 0;
 	left: 0;
     z-index: 99999;
-    
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in;
 	transition: opacity 400ms ease-in;
@@ -101,3 +100,9 @@ body {
 .clickable {
     cursor: pointer;
 }
+.placeholder{
+    color: lightgrey;}
+.select option:first-child{
+    color: lightgrey; display: none;}
+.select option{
+    color: lightgrey;}
