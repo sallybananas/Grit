@@ -66,14 +66,19 @@ body {
     /* top: 100px; */
 }
 .modal-dialog{
-    /* position: absolute;
-    top: 50px; */
+    position: fixed;
+    top: 40px;
     max-width:950px;
     max-height:600px;
-    /* right: 50%; */
-    /* bottom: 0; */
-    /* left: 50%;
-    z-index: 99999; */
+    right: 0;
+	bottom: 0;
+	left: 0;
+    z-index: 99999;
+    
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
     overflow: auto;
     overflow-y: scroll;
 }
