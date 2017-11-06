@@ -75,7 +75,7 @@ body {
     /* left: 50%;
     z-index: 10040; */
     overflow: auto;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 .video-container {
 	position:relative;
