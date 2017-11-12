@@ -1,0 +1,184 @@
+/* Ultrawide Background */
+html { 
+    background: url('bgsite.gif') no-repeat left top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+hr{
+    margin:2px;
+}
+h1{
+    font-size: 35px
+}
+/* Radial Menu CSS */
+ /* right: -15px;
+    bottom: -15px; */
+    .radial-menu {
+        /* top: 15px;
+        left: 15px; */
+        bottom: -15px;
+        right: -15px;
+        position: fixed;
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        border-radius: 50%;
+        z-index: 20;
+        -webkit-box-shadow: 3px 3px 100px 10px rgba(255, 255, 255, 0.4);
+        -moz-box-shadow: 3px 3px 100px 10px rgba(255, 255, 255, 0.4);
+        box-shadow: 3px 3px 100px 10px rgba(255, 255, 255, 0.4);
+    }
+/* Style and animate the menu items with CSS & CSS3 transitions */
+.menu-item1 {
+    width: 60%;
+    height: 60%;
+    background-color: rgb(169, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    line-height: 70px;
+    top: 25%;
+    left: 25%;
+    z-index: 19;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    position: absolute;
+}
+
+.menu-item2 {
+    width: 60%;
+    height: 60%;
+    background-color: rgb(169, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    line-height: 70px;
+    top: 25%;
+    left: 25%;
+    z-index: 19;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
+}
+
+.menu-item3 {
+    width: 60%;
+    height: 60%;
+    background-color: rgb(169, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    line-height: 70px;
+    top: 25%;
+    left: 25%;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;
+}
+
+.menu-item4 {
+    width: 60%;
+    height: 60%;
+    background-color: rgb(169, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    line-height: 70px;
+    top: 25%;
+    left: 25%;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.75);
+    transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .6s;
+}
+/* Style the menu toggle button */
+.mask {
+    /* top: 15px;
+    left: 15px; */
+    bottom: -15px;
+    right: -15px;
+    width: 100px;
+    height: 100px;
+    background: rgb(169, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 21;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+    position: fixed;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+  }
+.footer {
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.749);
+  }
+.centerline{
+     align-content: middle;
+ }
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  
+  .container {
+    background: transparent;
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
+  .container .text-muted {
+    margin: 10px 0;
+    background: transparent;
+  }
+  .pb{
+    margin-top:20px;
+    background: transparent;
+    font-size: 11px;
+  }
+
+ 
+  
