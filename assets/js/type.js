@@ -22,7 +22,7 @@
 
 $(function(){
             $("#typed").typed({
-                strings: ["GRIT is important", "GRIT is", "Passion and Perseverance", "for long-term goals", "Lets explore GRIT", "GRIT"],
+                strings: ["GRIT is important","GRIT is Passion","...and Perseverance", "...for long-term goals", "Lets explore GRIT", "GRIT"],
                 typeSpeed: 30,
           callback: function(){
             shift();
@@ -114,20 +114,20 @@ $(function(){
                     // can't be global since number changes each time loop is executed
                     var humanize = Math.round(Math.random() * (100 - 30)) + this.typeSpeed;
                     var self = this;
-    
+
                     // ------------- optional ------------- //
                     // backspaces a certain string faster
                     // ------------------------------------ //
-                    if (self.arrayPos == 1){
-                        self.stopNum = 3;
-                        self.backDelay = 10;
-                    }
-                    //every other time, delete the whole typed string
-                    else{
-                        self.stopNum = 0;
-                        self.backDelay = self.options.backDelay;
-                    }
-    
+    //                 if (self.arrayPos == 1){
+    //                     self.stopNum = 3;
+    //                     self.backDelay = 10;
+    //                 }
+    //                 //every other time, delete the whole typed string
+    //                 else{
+    //                     self.stopNum = 0;
+    //                     self.backDelay = self.options.backDelay;
+    //                 }
+
                     // contain typing function in a timeout humanize'd delay
                     self.timeout = setTimeout(function() {
                         // check for an escape character before a pause value
@@ -263,7 +263,7 @@ $(function(){
                 //     this.stop = false;
                 //     this.init();
                 // }
-    
+
                 // Reset and rebuild the element
                 , reset: function(){
                     var self = this;
@@ -275,9 +275,9 @@ $(function(){
                     // Send the callback
                     self.options.resetCallback();
                 }
-    
+
             };
-    
+
         $.fn.typed = function (option) {
             return this.each(function () {
               var $this = $(this)
@@ -293,7 +293,7 @@ $(function(){
             // typing speed
             typeSpeed: 0,
             // time before typing starts
-            startDelay: 0,
+            startDelay: 1000,
             // backspacing speed
             backSpeed: 0,
             // time before backspacing
