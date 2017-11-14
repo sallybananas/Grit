@@ -11,6 +11,12 @@ body {
     ;
     /* color: white; */
   }
+.homevid{
+    vertical-align: text-top;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: black;
+}
 .drop-shadow{
     box-shadow: 0 5px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
