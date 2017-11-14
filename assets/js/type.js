@@ -22,7 +22,7 @@
 
 $(function(){
             $("#typed").typed({
-                strings: ["GRIT is important","GRIT is Passion","...and Perseverance", "...for long-term goals", "Lets explore GRIT", "GRIT"],
+                strings: [" is important"," is Passion"," is Perseverance", " determines success",""],
                 typeSpeed: 30,
           callback: function(){
             shift();
