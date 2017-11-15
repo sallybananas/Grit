@@ -13,12 +13,11 @@ body {
   }
 .homevid{
     vertical-align: text-top;
-    border: 1px solid black;
-    outline-style: solid;
-    outline-color: black;
+    border: 1px solid #DDD;
+    border-radius: 5px;
 }
 .drop-shadow{
-    box-shadow: 0 5px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.30), 0 10px 12px rgba(0,0,0,0.22);
 }
 .footer {
     position: absolute;
@@ -41,6 +40,9 @@ body {
     font-size: 11px;
     color:white;
   }
+.sub{
+    font-size:6px;
+}
 .shadow{
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
@@ -184,3 +186,7 @@ body {
 } */
 
 /* Typed.js CSS */
+.col-md-3{
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
