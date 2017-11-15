@@ -49,10 +49,13 @@ body {
 .jumbotron {
     background-image: url("../img/coverjumboslim.gif");
     -webkit-mask-image:-webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-    background-size: 20em;
+    background-size: 10em;
     background-size: cover;
-    padding:30px;
-    margin-bottom:20px;
+    padding-top:0px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:15px;
+    margin-bottom:15px;
 }
 .text-inverse{
     color:white;
@@ -243,7 +246,7 @@ body {
 .col-md-8{
     border-right: 1px dotted #C2C2C2;padding-right: 30px;
 }
-.remove{
+/* .remove{
     padding-right:0px;
     padding-left:10px;
-}
+} */
