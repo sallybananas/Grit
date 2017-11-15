@@ -194,3 +194,56 @@ body {
     border: 1px solid #DDD;
     border-radius: 5px;
 }
+.fab {
+    width: 50px;
+    height: 50px;
+    background-color: #2C7EF7;
+    border-radius: 50%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    
+   transition: all 0.1s ease-in-out;
+ }
+ 
+.fab:hover {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transform: scale(1.05);
+ }
+.nav-tabs {
+    margin-bottom: 0px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 20px;
+}
+#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+.col-md-8{
+    border-right: 1px dotted #C2C2C2;padding-right: 30px;
+}
+.remove{
+    padding-right:0px;
+    padding-left:10px;
+}
