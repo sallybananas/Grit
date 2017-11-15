@@ -106,3 +106,4 @@ $.ajax({
         }
 })
 })
+$('#myModal').modal('show');

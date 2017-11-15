@@ -132,7 +132,11 @@ body {
 	height:0;
 	overflow:hidden;
 }
-
+.user-login{
+    position: fixed;
+    top:0;
+    right:0;
+}
 .video-container iframe, .video-container object, .video-container embed {
 	position:absolute;
 	top:0;
