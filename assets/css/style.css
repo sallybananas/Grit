@@ -11,6 +11,9 @@ body {
     ;
     /* color: white; */
   }
+.banner{
+    height:150px;
+}
 .card-head{
     padding:0px;
 }
@@ -94,49 +97,49 @@ body {
     margin:3px;
 }
 #kidgt #adultgt .modal-dialog{
-    max-width: 1000px;
-    position: relative;
+    /* max-width: 1000px; */
+    /* position: relative; */
     /* top: 100px; */
 }
 .modal-dialog{
     position: fixed;
     top: 40px;
-    /* position: absolute;
-    top: 50px; */
     max-width:950px;
     height:600px;
     right: 0;
 	bottom: 0;
 	left: 0;
     z-index: 99999;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-	pointer-events: none;
-    overflow: auto;
-    overflow-y: scroll;
-    /* position: fixed;
-    top: 40px;
-    max-width:950px;
-    max-height:600px;
-    right: 0;
-	bottom: 0;
-	left: 0;
-    z-index: 99999;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-	pointer-events: none;
-    overflow: auto;
-    overflow-y: scroll; */
-    -webkit-overflow-scrolling:touch
+}
+.modal-header{
+    background: #3E80EF;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to top,#000046, #1CB5E0);  Chrome 10-25, Safari 5.1-6
+    background: linear-gradient(to top, #000046, #1CB5E0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+}
+.close{
+    color:white;
+}
+.modal-footer{
+    /* background: #3E80EF;
+    color:white; */
+    line-height:20px;
+    padding:4px;
 }
 .modal-body-2{
     font-weight:lighter;
     line-height: 25px;
-    font-size:20px;
-    padding:15px;
-    background-color:lightgray;
+    font-size:18px;
+    padding:25px;
+    height:500px;
+    overflow: auto;
+    overflow-y: scroll;
+}
+.modal-body{
+    padding:25px;
+    height:500px;
+    overflow: auto;
+    overflow-y: scroll;
 }
 .hpbutton{
     box-shadow: 0 2px 5px rgba(0,0,0,0.30), 0 10px 12px rgba(0,0,0,0.22);
@@ -191,21 +194,6 @@ body {
         padding: 0 15px;
     }
 }
-/* #well-section{
-    font-size: 10px;
-    font-weight:lighter;
-    font-size:10px;
-} */
-/* .label .label-primary{
-    font-size: 10px;
-    font-weight:none;
-    font-size:10px;
-} */
-/* #mid{
-    align:middle:
-} */
-
-/* Typed.js CSS */
 .col-md-3{
     border: 1px solid #DDD;
     border-radius: 5px;
@@ -256,7 +244,3 @@ body {
 .col-md-8{
     border-right: 1px dotted #C2C2C2;padding-right: 30px;
 }
-/* .remove{
-    padding-right:0px;
-    padding-left:10px;
-} */
