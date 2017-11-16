@@ -11,6 +11,9 @@ body {
     ;
     /* color: white; */
   }
+.card-head{
+    padding:0px;
+}
 .homevid{
     vertical-align: text-top;
     border: 1px solid #DDD;
@@ -128,6 +131,15 @@ body {
     overflow-y: scroll; */
     -webkit-overflow-scrolling:touch
 }
+.modal-body-2{
+    font-weight:lighter;
+    line-height: 25px;
+    font-size:20px;
+    padding:15px;
+}
+.hpbutton{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.30), 0 10px 12px rgba(0,0,0,0.22);
+}
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
@@ -196,6 +208,7 @@ body {
 .col-md-3{
     border: 1px solid #DDD;
     border-radius: 5px;
+    align-content:center;
 }
 .fab {
     width: 50px;
@@ -203,19 +216,15 @@ body {
     background-color: #2C7EF7;
     border-radius: 50%;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    
     font-size: 40px;
     line-height: 40px;
     color: white;
     text-align: center;
-    
     position: fixed;
     right: 50px;
     bottom: 50px;
-    
    transition: all 0.1s ease-in-out;
  }
- 
 .fab:hover {
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     transform: scale(1.05);
