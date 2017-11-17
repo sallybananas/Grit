@@ -970,7 +970,7 @@
                                                         <form>
                                                             <!-- gender -->
                                                             <fieldset class="form-group">
-                                                                <label for="gender">Gender</label>
+                                                                <label id="gender" for="gender">Gender</label>
                                                                 <div class="form-check" align="center">
                                                                     <label class="form-check-label">
                                                                         <input type="radio" class="form-check-input" name="optionsRadios" id="male" value="option1" checked> Male
@@ -986,7 +986,7 @@
                                                             <!-- <br> -->
                                                             <!-- ethnicity -->
                                                             <fieldset>
-                                                                <label for="ethnicity">Ethnicity</label>
+                                                                <label id="ethnicity" for="ethnicity">Ethnicity</label>
                                                                 <select class="form-control dropdown" id="ethnicity" name="ethnicity">
                                                                     <option value="" selected="selected" disabled="disabled">Select the Ethnicity with which you are most aligned
                                                                         with...</option>
@@ -1030,8 +1030,8 @@
                                                             <br>
                                                             <!-- age -->
                                                             <div class="form-group">
-                                                                <label for="selectage placeholder">Age</label>
-                                                                <select class="form-control" id="selectage">
+                                                                <label id="selectAge"for="selectage placeholder">Age</label>
+                                                                <select class="form-control" id="selectAge">
                                                                     <option value="">Select Age</option>
                                                                     <option value="1">1</option>
                                                                     <option value="2">2</option>
@@ -1146,7 +1146,7 @@
                                                                         </div> -->
                                                             <!-- birth order -->
                                                             <div class="form-group">
-                                                                <label for="bo placeholder">Birth Order</label>
+                                                                <label id="bo"for="bo placeholder">Birth Order</label>
                                                                 <select class="form-control" id="bo">
                                                                     <option value="">Select child's birth position</option>
                                                                     <option value="1">1</option>
@@ -1172,7 +1172,7 @@
                                                                 </select>
                                                             </div>
                                                             <!-- zip code -->
-                                                            <label for="zip">Home Zip Code</label>
+                                                            <label id="zip" for="zip">Home Zip Code</label>
                                                             <input type="text" class="form-control" id="zip" placeholder="Zip Code" value="" required>
                                                             <br>
                                                             <!-- employment status -->
@@ -1227,7 +1227,7 @@
                                                                             </div>
                                                                         </div> -->
                                                             <div class="form-group">
-                                                                <label for="education placeholder">Highest Completed Educational Level</label>
+                                                                <label id="education" for="education placeholder">Highest Completed Educational Level</label>
                                                                 <select class="form-control" id="education">
                                                                     <option value="">Please select your highest COMPLETED level of education...</option>
                                                                     <option>Elementary (K-5)</option>
@@ -1545,7 +1545,7 @@
                                                                                 </label>
                                                                             </div>
                                                                         </div>
-                                                                        <button href="" type="submit" class="btn btn-primary" id="submit-grit-score">Get Your Score</button>
+                                                                        <button type="submit" class="btn btn-primary" id="submit-grit-score">Get Your Score</button>
                                                                     </form>
                                                                 </section>
                                                             </div>
@@ -2953,9 +2953,9 @@
     </footer>
 
     <!-- Firebase JavaScript -->
-
-
     <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+
+
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
@@ -2970,6 +2970,7 @@
     <script src="assets/js/app.js"></script>
     <script src="assets/js/youtube.js"></script>
     <script src="assets/js/type.js"></script>
+    <script src="assets/js/firebase.js"></script>
     <script type="text/javascript" src="assets/js/jquery.floating-social-share.js"></script>
 
 </body>
