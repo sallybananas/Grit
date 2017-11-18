@@ -85,6 +85,13 @@ body {
 }
 .card-header{
     border:0px;
+    margin-left:inherit;
+    margin-right:inherit;
+}
+.spacing{
+    padding:0px;
+    margin-left:10px;
+    margin-right:10px;
 }
 .grit{
     font-weight:bolder;
@@ -250,4 +257,18 @@ body {
 }
 .col-md-8{
     border-right: 1px dotted #C2C2C2;padding-right: 30px;
+}
+.col-md-1{
+    margin:0px;
+    padding:0px;
+    max-width: 70px;
+}
+.col-md-12-bottom{
+    padding-left:0px;
+    padding-right:0px;
+    height: auto;
+}
+.card-bottom{
+    border-radius: 5px;
+    vertical-align: bottom !important;
 }
