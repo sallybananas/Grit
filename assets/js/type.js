@@ -24,9 +24,9 @@ $(function(){
             $("#typed").typed({
                 strings: [" is important"," is Passion"," is Perseverance", " determines success",""],
                 typeSpeed: 30,
-          callback: function(){
-            shift();
-          }
+        //   callback: function(){
+        //     shift();
+        //   }
             });
         });
 
@@ -313,3 +313,16 @@ $(function(){
         };
 
     }(window.jQuery);
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     Type.new('.element', {
+//       strings: ["HTML5.", "CSS3.", "SASS.", "LESS.", "JavaScript.", "jQuery.", "AngularJS.", "Bootstrap3.", "NodeJS.", "NPM.", "Express JS.", "MassiveJS.", "SQL.", "PostgreSQL.", "React."],
+//       typeSpeed: 50,
+//       startDelay: 500,
+//       backSpeed: 35,
+//       shuffle: false,
+//       backDelay: 1500,
+//       loop: true,
+//       loopCount: null
+//     });
+//   });

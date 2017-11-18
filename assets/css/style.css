@@ -16,6 +16,8 @@ body {
 }
 .card-head{
     padding:0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .homevid{
     vertical-align: text-top;
@@ -195,6 +197,11 @@ body {
     }
 }
 .col-md-3{
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    align-content:center;
+}
+.col-md-4{
     border: 1px solid #DDD;
     border-radius: 5px;
     align-content:center;
