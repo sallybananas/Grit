@@ -1,11 +1,11 @@
- // Initialize Firebase
+ /// Initialize Firebase
  var config = {
-  apiKey: "AIzaSyBePGAjREPI1LZUsZGc9B9f4KF-yYMDe3A",
-  authDomain: "youth-grit-scale.firebaseapp.com",
-  databaseURL: "https://youth-grit-scale.firebaseio.com",
-  projectId: "youth-grit-scale",
-  storageBucket: "youth-grit-scale.appspot.com",
-  messagingSenderId: "481575498972"
+  apiKey: "AIzaSyDjE5u2MtLHc_plVVUjQlgn-LoBZ_Vt0U0",
+  authDomain: "grit-scale.firebaseapp.com",
+  databaseURL: "https://grit-scale.firebaseio.com",
+  projectId: "grit-scale",
+  storageBucket: "grit-scale.appspot.com",
+  messagingSenderId: "334387451925"
 };
 firebase.initializeApp(config);
 
@@ -89,8 +89,11 @@ firebase.initializeApp(config);
       //     alert("Data no go");
       //   }
       // });
-      //this is how er are going to reset all teh values for forms
+      //this is how we are going to reset all the values for forms
       document.getElementById("zip").value = "";
       document.getElementById("bo").value = "";
       document.getElementsByName("optionsRadios")[0].checked = "checked";
+      document.getElementById("ethnicity").value = "";
+      document.getElementById("selectAge").value = "";
+      document.getElementById("education").value = ""
   })
